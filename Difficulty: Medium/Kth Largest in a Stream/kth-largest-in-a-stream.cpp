@@ -22,7 +22,7 @@ class Solution {
             }
             else{
                 
-                    while(pq.size()>k){
+                    if(pq.size()>k){
                          pq.pop();
                         
                     }

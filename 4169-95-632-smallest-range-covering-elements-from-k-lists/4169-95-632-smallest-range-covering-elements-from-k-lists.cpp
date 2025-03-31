@@ -37,7 +37,7 @@ public:
         row=temp.second.first;
         col=temp.second.second;
 
-        if(col+1<nums[row].size()){
+        if(col+1<nums[row].size()){   //jis row or list me check kar rahe hai usme bhi element hona chaiye
               col++;
               pq.push(make_pair(nums[row][col],make_pair(row,col)));
               maximum=max(maximum,nums[row][col]);
